@@ -1,0 +1,19 @@
+Milestone 1:
+(15 min code review), 45 min git
+Git (Head: Pointer to last commit on branch, in remote: default branch last commit)
+https://www.edureka.co/blog/git-tutorial/ (Local, remote, snapshot)
+https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F
+1;Task: Local areas (modified, staged, commited) commit and push file, then on remote and file (locally create new) -> pull
+2;Same, task, just modify same file (resolve conflict)
+3;Create new branch (add new file in master), than rebase. After it push a PR.
+
+Builder (1H)
+Null object(Optional)
+singleton
+
+Factory (1H)
+DTO
+prototype
+
+
+
