@@ -1,6 +1,6 @@
 package week1.cretional.prototype;
 
-public class PersonWithClone implements Cloneable{
+public class PersonWithClone implements Cloneable {
     private String name;
     private AddressWithClone address;
 
@@ -8,6 +8,7 @@ public class PersonWithClone implements Cloneable{
         this.name = name;
         this.address = address;
     }
+
     public String getName() {
         return name;
     }
@@ -26,7 +27,7 @@ public class PersonWithClone implements Cloneable{
 
     //WARNING by default shallow copy is made
     @Override
-    public Object clone(){
+    public Object clone() {
         return new PersonWithClone(name,
                 address instanceof Cloneable ? (AddressWithClone) address.clone() : address
         );

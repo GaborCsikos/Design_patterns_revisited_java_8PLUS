@@ -12,7 +12,7 @@ import static org.junit.Assert.assertEquals;
 public class PrototypeTest {
 
     @Test
-    public void badExample(){
+    public void badExample() {
         Address address = new Address("Budapest", "Vaci ut 11", "1138");
         Person person = new Person("Aizhan", address);
         Person personCopied = person;
@@ -22,20 +22,20 @@ public class PrototypeTest {
     }
 
     @Test
-    public void copyWithClone(){
+    public void copyWithClone() {
         AddressWithClone address = new AddressWithClone("Budapest", "Vaci ut 11", "1138");
         PersonWithClone person = new PersonWithClone("Aizhan", address);
-        PersonWithClone personCopied = (PersonWithClone)person.clone();
+        PersonWithClone personCopied = (PersonWithClone) person.clone();
         personCopied.setName("Szabina");
         assertEquals("Szabina", personCopied.getName());
         assertEquals("Aizhan", person.getName());
     }
 
     @Test
-    public void copyWithSerialization(){
+    public void copyWithSerialization() {
         Address address = new Address("Budapest", "Vaci ut 11", "1138");
         Person person = new Person("Aizhan", address);
-        Person personCopied =  SerializationUtils.roundtrip(person);
+        Person personCopied = SerializationUtils.roundtrip(person);
         personCopied.setName("Szabina");
         assertEquals("Szabina", personCopied.getName());
         assertEquals("Aizhan", person.getName());

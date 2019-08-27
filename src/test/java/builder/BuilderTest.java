@@ -11,8 +11,8 @@ import static org.junit.Assert.assertEquals;
 public class BuilderTest {
 
     @Test
-    public void testGenericBuilder(){
-        Person person =  GenericBuilder.of(Person::new)
+    public void testGenericBuilder() {
+        Person person = GenericBuilder.of(Person::new)
                 .with(Person::setFirstName, "Gabor")
                 .with(Person::setLastName, "Csikos")
                 .with(Person::setAge, 31).build();
@@ -23,14 +23,14 @@ public class BuilderTest {
     }
 
     @Test
-    public void lombokBuilder(){
+    public void lombokBuilder() {
         PersonWithLombok person = PersonWithLombok.builder().lastName("Csikos").build();
         assertEquals("Csikos", person.getLastName());
 
     }
 
     @Test
-    public void builder(){
+    public void builder() {
         Person person = new PersonBuilder()
                 .with($ -> {
                     $.firstName = "Gabor";

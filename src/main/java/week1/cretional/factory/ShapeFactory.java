@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Supplier;
 
-public class ShapeFactory{
+public class ShapeFactory {
 
     final static Map<ShapeType, Supplier<Shape>> map = new HashMap<>();
 

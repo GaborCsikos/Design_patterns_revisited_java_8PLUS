@@ -1,6 +1,6 @@
 package week1.cretional.prototype;
 
-public class AddressWithClone implements Cloneable{
+public class AddressWithClone implements Cloneable {
     private String city;
     private String street;
     private String postalCode;
@@ -36,7 +36,7 @@ public class AddressWithClone implements Cloneable{
     }
 
     @Override
-    public Object clone(){
-        return new AddressWithClone(city,street, postalCode);
+    public Object clone() {
+        return new AddressWithClone(city, street, postalCode);
     }
 }

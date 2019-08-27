@@ -9,7 +9,7 @@ public class AbstractFactory {
     final static Map<FactoryType, Supplier<Factory>> map = new HashMap<>();
 
     static {
-       // map.put(FactoryType.SHAPE, ShapeFactory::new);
+        // map.put(FactoryType.SHAPE, ShapeFactory::new);
         //TODO commented out on purpose
     }
 

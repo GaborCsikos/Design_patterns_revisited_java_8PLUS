@@ -1,7 +1,5 @@
 package week1.dto;
 
-import week1.dto.FlightTicketDTO;
-
 public class FlightSystem {
     public FlightTicketDTO getInformation() {
         FlightTicketDTO dto = new FlightTicketDTO();

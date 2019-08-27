@@ -7,9 +7,9 @@ https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F
 2;Same, task, just modify same file (resolve conflict)
 3;Create new branch (add new file in master), than rebase. After it push a PR.
 
-Builder (1H)
+Builder https://stackoverflow.com/questions/31754786/how-to-implement-the-builder-pattern-in-java-8
 Null object(Optional) https://www.baeldung.com/java-optional
-singleton
+singleton https://www.journaldev.com/1377/java-singleton-design-pattern-best-practices-examples
 
 Factory (1H)
 -method https://stackoverflow.com/questions/9980915/lists-newarraylist-vs-new-arraylist

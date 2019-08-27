@@ -13,7 +13,7 @@ public class DTOTest {
     private FlightSystem flightSystem = new FlightSystem();
 
     @Test
-    public void gatherAllInformationOnce(){
+    public void gatherAllInformationOnce() {
         FlightTicketDTO dto = flightSystem.getInformation();
         assertEquals("A123", dto.getFlightNumber());
 

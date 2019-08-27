@@ -11,15 +11,15 @@ import static org.junit.Assert.assertEquals;
 public class FactoryTest {
 
     @Test
-    public void factoryMethod(){
+    public void factoryMethod() {
         Car car = Car.newAmbulance("AAA-123");
         assertEquals("White", car.getColor());
     }
 
     @Test
-    public void testFactory(){
+    public void testFactory() {
         ShapeFactory factory = new ShapeFactory();
-        Shape shape =factory.getShape(ShapeType.CIRCLE);
+        Shape shape = factory.getShape(ShapeType.CIRCLE);
         shape.draw();
     }
 }

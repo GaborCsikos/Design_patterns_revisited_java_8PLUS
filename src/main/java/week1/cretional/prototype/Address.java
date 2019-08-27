@@ -13,6 +13,11 @@ public class Address implements Serializable {
         this.postalCode = postalCode;
     }
 
+    //Better approach
+    public Address(Address other) {
+        this(other.city, other.street, other.postalCode);
+    }
+
     public String getCity() {
         return city;
     }
@@ -35,11 +40,5 @@ public class Address implements Serializable {
 
     public void setPostalCode(String postalCode) {
         this.postalCode = postalCode;
-    }
-
-    //Better approach
-    public Address(Address other)
-    {
-        this(other.city, other.street, other.postalCode);
     }
 }
