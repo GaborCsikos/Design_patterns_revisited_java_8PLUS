@@ -1,1 +1,4 @@
 /home/gabor/Upwork/src/test/java/dto/DTOTest.java
+/home/gabor/Upwork/src/test/java/builder/BuilderTest.java
+/home/gabor/Upwork/src/test/java/factory/FactoryTest.java
+/home/gabor/Upwork/src/test/java/prototype/PrototypeTest.java

@@ -12,6 +12,9 @@ Null object(Optional) https://www.baeldung.com/java-optional
 singleton
 
 Factory (1H)
+-method https://stackoverflow.com/questions/9980915/lists-newarraylist-vs-new-arraylist
+-factory : https://www.javaguides.net/2018/10/factory-pattern-using-java-8-lambda-expressions.html?m=1
+-abs factory: https://www.baeldung.com/java-abstract-factory-pattern
 DTO : https://softwareengineering.stackexchange.com/questions/171457/what-is-the-point-of-using-dto-data-transfer-objects
 prototype OK
 

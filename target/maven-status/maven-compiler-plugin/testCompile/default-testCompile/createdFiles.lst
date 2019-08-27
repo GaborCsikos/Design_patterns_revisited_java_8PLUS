@@ -1,1 +1,4 @@
+prototype/PrototypeTest.class
+builder/BuilderTest.class
 dto/DTOTest.class
+factory/FactoryTest.class
