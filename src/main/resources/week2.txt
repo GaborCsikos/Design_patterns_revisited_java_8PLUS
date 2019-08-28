@@ -1,0 +1,25 @@
+Milestone 2:
+
+1;
+Collections, exception handling,Lambda and functional Interfaces
+Collections: https://www.journaldev.com/1260/collections-in-java-tutorial
+https://www.journaldev.com/129/how-to-create-immutable-class-in-java
+https://examples.javacodegeeks.com/core-java/maphashmap-works-internally-java/
+Exceptions: https://www.baeldung.com/java-exceptions
+https://howtodoinjava.com/java8/lambda-expressions/
+
+Lambda and functional Interfaces
+https://medium.com/@iamcrypticcoder/java-8-built-in-functional-interfaces-27b9f7250a3c
+http://eherrera.net/ocpj8-notes/04-lambda-built-in-functional-interfaces
+http://ocpj8.javastudyguide.com/ch10.html
+
+
+2;
+Saturday:
+  Adapter (https://refactoring.guru/design-patterns/adapter)
+  Bridge https://www.journaldev.com/1491/bridge-design-pattern-java
+Composite(https://www.baeldung.com/java-composite-pattern),
+Decorator https://struscode.com/code/java/functional-java-decorator-pattern/
+  Facade(https://www.javacodegeeks.com/2015/09/facade-design-pattern.html)
+  Flyweight https://refactoring.guru/design-patterns/flyweight
+Proxy(https://dzone.com/articles/design-patterns-proxy)

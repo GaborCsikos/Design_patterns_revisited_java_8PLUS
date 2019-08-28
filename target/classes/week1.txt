@@ -18,5 +18,5 @@ Factory (1H)
 DTO : https://softwareengineering.stackexchange.com/questions/171457/what-is-the-point-of-using-dto-data-transfer-objects
 prototype OK
 
-
+https://refactoring.guru/
 

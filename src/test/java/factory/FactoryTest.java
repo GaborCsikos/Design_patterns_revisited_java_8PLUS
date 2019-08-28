@@ -20,6 +20,6 @@ public class FactoryTest {
     public void testFactory() {
         ShapeFactory factory = new ShapeFactory();
         Shape shape = factory.getShape(ShapeType.CIRCLE);
-        shape.draw();
+        assertEquals(ShapeType.CIRCLE.name(), shape.getType());
     }
 }
