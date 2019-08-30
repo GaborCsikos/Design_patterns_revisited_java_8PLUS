@@ -16,13 +16,13 @@ http://ocpj8.javastudyguide.com/ch10.html
 
 2;
 Saturday:
-  Adapter https://refactoring.guru/design-patterns/adapter
-  Adapter java 8: http://comunytek.com/en/adapters-in-java-8-adapter/
-  https://dzone.com/articles/creating-custom-annotations-in-java
-  https://www.baeldung.com/java-custom-annotation
-  Bridge https://www.journaldev.com/1491/bridge-design-pattern-java
-  Composite https://www.geeksforgeeks.org/composite-design-pattern/
-  Decorator https://www.voxxed.com/2016/01/decorator-design-pattern-using-lambdas/
-  Facade https://www.javacodegeeks.com/2015/09/facade-design-pattern.html
-  Flyweight https://refactoring.guru/design-patterns/flyweight
+Adapter https://refactoring.guru/design-patterns/adapter
+Adapter java 8: http://comunytek.com/en/adapters-in-java-8-adapter/
+https://dzone.com/articles/creating-custom-annotations-in-java
+https://www.baeldung.com/java-custom-annotation
+Bridge https://www.journaldev.com/1491/bridge-design-pattern-java
+Composite https://www.geeksforgeeks.org/composite-design-pattern/
+Decorator https://www.voxxed.com/2016/01/decorator-design-pattern-using-lambdas/
+Facade https://www.javacodegeeks.com/2015/09/facade-design-pattern.html
+Flyweight https://refactoring.guru/design-patterns/flyweight
 Proxy(https://dzone.com/articles/design-patterns-proxy)

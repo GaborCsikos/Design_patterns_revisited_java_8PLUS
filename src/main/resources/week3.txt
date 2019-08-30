@@ -1,0 +1,18 @@
+Milestone 3
+
+Sunday
+Solid principles
+https://dzone.com/articles/the-solid-principles-in-real-life
+https://medium.com/@karthikcsridhar/s-o-l-i-d-principles-in-java-1aaff453d7ea
+
+layers (show)
+
+streams(https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/)
+https://howtodoinjava.com/java8/java-streams-by-examples/amp/
+
+Ocp:
+https://springframework.guru/principles-of-object-oriented-design/open-closed-principle/
+
++Specification
+
+Saturday
