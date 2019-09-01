@@ -16,8 +16,11 @@ public class ShapeFactory {
     public Shape getShape(ShapeType shapeType) {
         Supplier<Shape> shape = map.get(shapeType);
         if (shape != null) {
-            return shape.get();
+            Shape shapeAsObject = shape.get();
+            shapeAsObject.setValueForTest(10);
+            return shapeAsObject;
         }
+
         throw new IllegalArgumentException("No such shape " + shapeType.name());
     }
 }

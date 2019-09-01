@@ -11,5 +11,4 @@ public class PersonWithLombok {
     private String lastName;
     private int age;
 
-
 }

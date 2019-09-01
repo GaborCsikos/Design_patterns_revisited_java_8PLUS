@@ -11,10 +11,6 @@ public class Person implements Serializable {
         this.address = address;
     }
 
-    //Better approach
-    public Person(Person other) {
-        this(other.name, other.address);
-    }
 
     public String getName() {
         return name;

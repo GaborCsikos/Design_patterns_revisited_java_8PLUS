@@ -1,6 +1,6 @@
 Milestone 2:
 
-1;
+1; Sunday
 Collections, exception handling,Lambda and functional Interfaces
 Collections: https://www.journaldev.com/1260/collections-in-java-tutorial
 https://www.journaldev.com/129/how-to-create-immutable-class-in-java

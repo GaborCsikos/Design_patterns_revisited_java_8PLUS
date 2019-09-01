@@ -1,10 +1,8 @@
 package factory;
 
 import org.junit.Test;
-import week1.cretional.factory.Car;
-import week1.cretional.factory.Shape;
-import week1.cretional.factory.ShapeFactory;
-import week1.cretional.factory.ShapeType;
+import week1.cretional.builder.Person;
+import week1.cretional.factory.*;
 
 import static org.junit.Assert.assertEquals;
 
@@ -21,5 +19,10 @@ public class FactoryTest {
         ShapeFactory factory = new ShapeFactory();
         Shape shape = factory.getShape(ShapeType.CIRCLE);
         assertEquals(ShapeType.CIRCLE.name(), shape.getType());
+
+
+        //Test the name the persons with bank account
+
+        Person person = PersonFactory.getPerson(PersonType.PERSON_WITH_BACK_ACCOUNT);
     }
 }

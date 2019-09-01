@@ -28,6 +28,7 @@ public class PersonWithClone implements Cloneable {
     //WARNING by default shallow copy is made
     @Override
     public Object clone() {
+
         return new PersonWithClone(name,
                 address instanceof Cloneable ? (AddressWithClone) address.clone() : address
         );
