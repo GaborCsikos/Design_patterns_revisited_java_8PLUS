@@ -12,7 +12,13 @@ https://howtodoinjava.com/java8/java-streams-by-examples/amp/
 
 Ocp:
 https://springframework.guru/principles-of-object-oriented-design/open-closed-principle/
-
 +Specification
 
 Saturday
+COR
+Command  http://blog.amitinside.com/Command-Pattern-Using-Java-8-Lambda/
+Interpreter https://www.topjavatutorial.com/java/java-programs/interpreter-pattern-example-java/
+Interpreter : Compilers + https://www.antlr.org/
+Iterator
+Mediaror
+Memento https://www.geeksforgeeks.org/memento-design-pattern/
