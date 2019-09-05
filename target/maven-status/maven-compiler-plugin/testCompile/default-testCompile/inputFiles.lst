@@ -1,4 +1,15 @@
+/home/gabor/Upwork/src/test/java/bridge/BridgeTest.java
+/home/gabor/Upwork/src/test/java/proxy/ProxyTest.java
+/home/gabor/Upwork/src/test/java/composite/CompositeTest.java
 /home/gabor/Upwork/src/test/java/dto/DTOTest.java
 /home/gabor/Upwork/src/test/java/builder/BuilderTest.java
-/home/gabor/Upwork/src/test/java/factory/FactoryTest.java
+/home/gabor/Upwork/src/test/java/command/CommandTest.java
+/home/gabor/Upwork/src/test/java/singleton/SingletonTest.java
 /home/gabor/Upwork/src/test/java/prototype/PrototypeTest.java
+/home/gabor/Upwork/src/test/java/specification/SpecificationTest.java
+/home/gabor/Upwork/src/test/java/memento/MementoTest.java
+/home/gabor/Upwork/src/test/java/decorator/DecoratorTest.java
+/home/gabor/Upwork/src/test/java/factory/FactoryTest.java
+/home/gabor/Upwork/src/test/java/flyweight/FlyWeightTest.java
+/home/gabor/Upwork/src/test/java/adapter/AdapterTest.java
+/home/gabor/Upwork/src/test/java/facade/FacadeTest.java

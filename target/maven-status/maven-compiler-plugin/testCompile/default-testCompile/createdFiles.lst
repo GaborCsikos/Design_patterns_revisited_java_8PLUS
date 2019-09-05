@@ -1,4 +1,15 @@
+bridge/BridgeTest.class
+proxy/ProxyTest.class
+specification/SpecificationTest.class
+composite/CompositeTest.class
 prototype/PrototypeTest.class
+facade/FacadeTest.class
 builder/BuilderTest.class
+decorator/DecoratorTest.class
+command/CommandTest.class
+adapter/AdapterTest.class
 dto/DTOTest.class
+memento/MementoTest.class
 factory/FactoryTest.class
+flyweight/FlyWeightTest.class
+singleton/SingletonTest.class

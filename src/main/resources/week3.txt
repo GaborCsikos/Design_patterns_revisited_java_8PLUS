@@ -15,10 +15,11 @@ https://springframework.guru/principles-of-object-oriented-design/open-closed-pr
 +Specification
 
 Saturday
-COR
+COR https://stackoverflow.com/questions/36484459/chain-of-responsibility-lambda-function-implementation
 Command  http://blog.amitinside.com/Command-Pattern-Using-Java-8-Lambda/
 Interpreter https://www.topjavatutorial.com/java/java-programs/interpreter-pattern-example-java/
 Interpreter : Compilers + https://www.antlr.org/
-Iterator
-Mediaror
+Iterator: https://refactoring.guru/design-patterns/iterator
+Iterator https://howtodoinjava.com/design-patterns/behavioral/iterator-design-pattern/
+Mediaror https://refactoring.guru/design-patterns/mediator
 Memento https://www.geeksforgeeks.org/memento-design-pattern/
