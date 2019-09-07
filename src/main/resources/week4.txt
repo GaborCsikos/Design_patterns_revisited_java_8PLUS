@@ -1,0 +1,11 @@
+Sunday:
+
+Generics https://howtodoinjava.com/java/generics/complete-java-generics-tutorial/
+Instead of Generics: https://www.tutorialspoint.com/spring_boot/spring_boot_introduction.htm
+date handling : https://dzone.com/articles/java-8-date-and-time
+IO: https://tutoref.com/how-to-read-and-write-files-in-java-8/
+NIO: http://tutorials.jenkov.com/java-nio/index.html
+Unit testing: https://www.baeldung.com/mockito-2-java-8
+Integ test: https://www.baeldung.com/spring-boot-testing
+performance: https://www.baeldung.com/spring-boot-testing
+Concurrency https://winterbe.com/posts/2015/04/07/java8-concurrency-tutorial-thread-executor-examples/

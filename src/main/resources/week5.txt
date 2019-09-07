@@ -1,0 +1,11 @@
+Sunday:
+
+Obserber
+State
+Strategy
+Template
+Visitor
+DAO
+MVC
+
+
