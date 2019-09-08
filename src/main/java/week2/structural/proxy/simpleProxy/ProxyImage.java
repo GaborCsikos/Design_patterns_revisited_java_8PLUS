@@ -1,4 +1,4 @@
-package week2.structural.proxy.protection;
+package week2.structural.proxy.simpleProxy;
 
 public class ProxyImage implements Image {
     private RealImage real = new RealImage();

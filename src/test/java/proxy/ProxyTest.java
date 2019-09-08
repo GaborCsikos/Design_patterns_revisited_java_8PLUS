@@ -4,11 +4,11 @@ import org.junit.Test;
 import week2.structural.proxy.dynamic.HealthCheckHandler;
 import week2.structural.proxy.dynamic.Human;
 import week2.structural.proxy.dynamic.Person;
-import week2.structural.proxy.protection.Image;
-import week2.structural.proxy.protection.ProxyImage;
-import week2.structural.proxy.simple.CarProxy;
-import week2.structural.proxy.simple.Drivable;
-import week2.structural.proxy.simple.Driver;
+import week2.structural.proxy.simpleProxy.Image;
+import week2.structural.proxy.simpleProxy.ProxyImage;
+import week2.structural.proxy.protection.CarProxy;
+import week2.structural.proxy.protection.Drivable;
+import week2.structural.proxy.protection.Driver;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;

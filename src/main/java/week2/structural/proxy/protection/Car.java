@@ -1,4 +1,4 @@
-package week2.structural.proxy.simple;
+package week2.structural.proxy.protection;
 
 public class Car implements Drivable
 {
