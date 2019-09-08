@@ -9,8 +9,12 @@ public class BridgeTest {
 
     @Test
     public void testBridge() {
-        Shape triangle = new Triangle(new RedColor());
-        assertEquals("Red Triangle", triangle.applyColor());
+        Shape redTriangle = new Triangle(new RedColor());
+        assertEquals("Red Triangle", redTriangle.applyColor());
+
+        Shape greenTriangle = new Triangle(new GreenColor());
+        assertEquals("Green Triangle", greenTriangle.applyColor());
+
 
         Shape square = new Square(new GreenColor());
         assertEquals("Green Square", square.applyColor());

@@ -1,4 +1,4 @@
-package week2.structural.adapter.improved;
+package week2.structural.decorator.fav;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

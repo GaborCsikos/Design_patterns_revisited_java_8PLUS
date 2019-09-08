@@ -1,4 +1,4 @@
-package week2.structural.adapter.improved;
+package week2.structural.decorator.fav;
 
 public class WithAnnotationDTO {
 
