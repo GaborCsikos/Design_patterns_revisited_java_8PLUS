@@ -1,11 +1,11 @@
 Sunday:
 
-Obserber
+Observer
 State
 Strategy
-Template
+Template: https://refactoring.guru/design-patterns/template-method
 Visitor
-DAO
-MVC
+DAO: https://stackoverflow.com/questions/8550124/what-is-the-difference-between-dao-and-repository-patterns
+MVC: https://www.geeksforgeeks.org/mvc-design-pattern/
 
 

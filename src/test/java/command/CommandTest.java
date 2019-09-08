@@ -1,8 +1,8 @@
 package command;
 
 import org.junit.Test;
-import week3.command.Invoker;
-import week3.command.Receiver;
+import week3.behavioral.command.Invoker;
+import week3.behavioral.command.Receiver;
 
 public class CommandTest {
 

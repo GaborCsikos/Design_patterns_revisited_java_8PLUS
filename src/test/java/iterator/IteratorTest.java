@@ -1,7 +1,7 @@
 package iterator;
 
 import org.junit.Test;
-import week3.iterator.IterableCreature;
+import week3.behavioral.iterator.IterableCreature;
 
 public class IteratorTest {
 

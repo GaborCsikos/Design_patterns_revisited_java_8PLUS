@@ -1,9 +1,9 @@
 package cor;
 
 import org.junit.Test;
-import week3.cor.Chain;
-import week3.cor.ChainBuilder;
-import week3.cor.PurchaseRequest;
+import week3.behavioral.cor.Chain;
+import week3.behavioral.cor.ChainBuilder;
+import week3.behavioral.cor.PurchaseRequest;
 
 public class ChainOfResponsibilityTest {
 

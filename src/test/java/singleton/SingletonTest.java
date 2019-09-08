@@ -1,9 +1,9 @@
 package singleton;
 
 import org.junit.Test;
-import week1.cretional.singleton.BasicSingleton;
-import week1.cretional.singleton.BestSingleton;
-import week1.cretional.singleton.ShortestSingleton;
+import week1.creational.singleton.BasicSingleton;
+import week1.creational.singleton.BestSingleton;
+import week1.creational.singleton.ShortestSingleton;
 
 import static org.junit.Assert.assertEquals;
 

@@ -1,9 +1,9 @@
 package memento;
 
 import org.junit.Test;
-import week3.memento.CareTaker;
-import week3.memento.Life;
-import week3.memento.Memento;
+import week3.behavioral.memento.CareTaker;
+import week3.behavioral.memento.Life;
+import week3.behavioral.memento.Memento;
 
 import static org.junit.Assert.assertEquals;
 

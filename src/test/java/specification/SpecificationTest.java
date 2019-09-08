@@ -1,7 +1,7 @@
 package specification;
 
 import org.junit.Test;
-import week3.specification.*;
+import week3.behavioral.specification.*;
 
 import java.util.List;
 import java.util.stream.Collectors;

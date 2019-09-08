@@ -2,10 +2,10 @@ package prototype;
 
 import org.apache.commons.lang3.SerializationUtils;
 import org.junit.Test;
-import week1.cretional.prototype.Address;
-import week1.cretional.prototype.AddressWithClone;
-import week1.cretional.prototype.Person;
-import week1.cretional.prototype.PersonWithClone;
+import week1.creational.prototype.Address;
+import week1.creational.prototype.AddressWithClone;
+import week1.creational.prototype.Person;
+import week1.creational.prototype.PersonWithClone;
 
 import static org.junit.Assert.assertEquals;
 

@@ -1,10 +1,10 @@
 package builder;
 
 import org.junit.Test;
-import week1.cretional.builder.GenericBuilder;
-import week1.cretional.builder.Person;
-import week1.cretional.builder.PersonBuilder;
-import week1.cretional.builder.PersonWithLombok;
+import week1.creational.builder.GenericBuilder;
+import week1.creational.builder.Person;
+import week1.creational.builder.PersonBuilder;
+import week1.creational.builder.PersonWithLombok;
 
 import static org.junit.Assert.assertEquals;
 

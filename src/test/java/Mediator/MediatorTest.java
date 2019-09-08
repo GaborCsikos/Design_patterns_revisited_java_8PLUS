@@ -1,8 +1,8 @@
 package Mediator;
 
 import org.junit.Test;
-import week3.mediator.ChatRoom;
-import week3.mediator.Person;
+import week3.behavioral.mediator.ChatRoom;
+import week3.behavioral.mediator.Person;
 
 public class MediatorTest {
 

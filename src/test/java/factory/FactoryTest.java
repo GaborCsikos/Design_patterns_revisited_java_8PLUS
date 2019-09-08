@@ -1,8 +1,8 @@
 package factory;
 
 import org.junit.Test;
-import week1.cretional.builder.Person;
-import week1.cretional.factory.*;
+import week1.creational.builder.Person;
+import week1.creational.factory.*;
 
 import static org.junit.Assert.assertEquals;
 

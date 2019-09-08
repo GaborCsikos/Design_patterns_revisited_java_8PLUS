@@ -4,10 +4,9 @@ package dto;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
-import week1.dto.FlightSystem;
-import week1.dto.FlightTicketDTO;
+import week1.creational.dto.FlightSystem;
+import week1.creational.dto.FlightTicketDTO;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
