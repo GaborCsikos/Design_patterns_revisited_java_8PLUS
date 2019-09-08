@@ -49,4 +49,12 @@ public class AdapterTest {
 
         assertEquals("NOT_PLANNED", mappedNewContracts.get(0).getTask());
     }
+
+    @Test
+    public void testJava8Adapter2() {
+        HungarianContract contract = new HungarianContractImpl("simple", new Date());
+        Contract mapped = Contract.newInstance(contract.getTaskInHungarian(), contract.getDueDateForGovermentBooking());
+
+        assertEquals("simple", mapped.getTask());
+    }
 }
