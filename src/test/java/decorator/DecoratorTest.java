@@ -19,7 +19,7 @@ public class DecoratorTest {
     public void testDecoratorSimple() {
 
         //Add cheese
-        Pizza pizzaWithCheese = () ->  new BasicPizza().getPriceOfPizza() + 200;
+        Pizza pizzaWithCheese = () -> new BasicPizza().getPriceOfPizza() + 200;
 
         //Add pepperoni
         Pizza pizzaWithCheeseAndPepperoni = () -> pizzaWithCheese.getPriceOfPizza() + 300;

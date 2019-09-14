@@ -16,10 +16,9 @@ import static org.junit.Assert.fail;
 
 public class DTOAndExceptionTest {
 
-    private FlightSystem flightSystem = new FlightSystem();
-
     @Rule
     public ExpectedException exceptionRule = ExpectedException.none();
+    private FlightSystem flightSystem = new FlightSystem();
 
     @Test
     public void gatherAllInformationOnce() {
@@ -30,26 +29,24 @@ public class DTOAndExceptionTest {
         doSomething(example);
     }
 
-    private void doSomething(List<String> somegting){
+    private void doSomething(List<String> somegting) {
         ///
     }
 
-    @Test(expected =  NullPointerException.class)
-    public void testNPE(){
+    @Test(expected = NullPointerException.class)
+    public void testNPE() {
         flightSystem.testNPE(null);
     }
 
     @Test
-    public void testNPEExample(){
+    public void testNPEExample() {
         try {
             flightSystem.testNPE("CAT");
             fail();
-        }catch (NullPointerException e){
+        } catch (NullPointerException e) {
             assertEquals(e.getMessage(), "ABC");
         }
     }
-
-
 
 
     @Test

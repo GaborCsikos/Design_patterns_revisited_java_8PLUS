@@ -3,7 +3,8 @@ package adapter;
 import org.junit.Test;
 import week2.structural.adapter.LegacySystem;
 import week2.structural.adapter.PersonAdapter;
-import week2.structural.adapter.improved.*;
+import week2.structural.adapter.improved.Contract;
+import week2.structural.adapter.improved.HungarianContract;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -30,31 +31,22 @@ public class AdapterTest {
 
     @Test
     public void testJava8Adapter() {
-        HungarianContract contract = new HungarianContractImpl("simple", new Date());
-        List<HungarianContract> newContracts = new ArrayList<>();
+        Contract contract = new HungarianContract("Hungarian conctract", new Date());
+        List<Contract> newContracts = new ArrayList<>();
         newContracts.add(contract);
         List<Contract> contracts = newContracts.stream()
-                .map(p -> Contract.newInstance(p.getTaskInHungarian(), p.getDueDateForGovermentBooking()))
+                .map(p -> Contract.adapterToUpworkContract(p.getTask(), p.getDueDate()))
                 .collect(Collectors.toList());
 
-        assertEquals("simple", contracts.get(0).getTask());
+        assertEquals("Hungarian conctract in Upwork", contracts.get(0).getTask());
 
-
-        NewNotPlannedContract notPlannedContract = new NewNotPlannedContractImpl("NOT_PLANNED", new Date());
-        List<NewNotPlannedContract> newNotPlannedContracts = new ArrayList<>();
-        newNotPlannedContracts.add(notPlannedContract);
-        List<Contract> mappedNewContracts = newNotPlannedContracts.stream()
-                .map(p -> Contract.newInstance(p.getTaskWithHighPrio(), p.getHighPrioDueDate()))
-                .collect(Collectors.toList());
-
-        assertEquals("NOT_PLANNED", mappedNewContracts.get(0).getTask());
     }
 
     @Test
     public void testJava8Adapter2() {
-        HungarianContract contract = new HungarianContractImpl("simple", new Date());
-        Contract mapped = Contract.newInstance(contract.getTaskInHungarian(), contract.getDueDateForGovermentBooking());
+        HungarianContract contract = new HungarianContract("Hungarian conctract", new Date());
+        Contract mapped = Contract.adapterToUpworkContract(contract.getTask(), contract.getDueDate());
 
-        assertEquals("simple", mapped.getTask());
+        assertEquals("Hungarian conctract in Upwork", mapped.getTask());
     }
 }

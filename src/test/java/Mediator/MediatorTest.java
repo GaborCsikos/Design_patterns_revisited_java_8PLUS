@@ -7,7 +7,7 @@ import week3.behavioral.mediator.Person;
 public class MediatorTest {
 
     @Test
-    public void testMediator(){
+    public void testMediator() {
         ChatRoom room = new ChatRoom();
 
         Person john = new Person("John");

@@ -3,11 +3,13 @@ package week2.structural.adapter.improved;
 import java.util.Date;
 
 public interface Contract {
-    static Contract newInstance(String task, Date dueDate) {
+
+    //Adapter
+    static Contract adapterToUpworkContract(String task, Date dueDate) {
         return new Contract() {
             @Override
             public String getTask() {
-                return task;
+                return task + " in Upwork";
             }
 
             @Override
@@ -20,4 +22,5 @@ public interface Contract {
     String getTask();
 
     Date getDueDate();
+
 }
