@@ -1,8 +1,8 @@
 Sunday:
 
-Observer
+Observer: http://blog.amitinside.com/Observer-Patter-Using-Java-8-Lambda/
 State
-Strategy
+Strategy https://www.codingame.com/playgrounds/6521/strategy-design-pattern-java-8
 Template: https://refactoring.guru/design-patterns/template-method
 Visitor
 DAO: https://stackoverflow.com/questions/8550124/what-is-the-difference-between-dao-and-repository-patterns
