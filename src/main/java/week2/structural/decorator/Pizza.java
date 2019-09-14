@@ -20,13 +20,8 @@ public interface Pizza {
         };
     }
 
-    static  Pizza witVeggies(Pizza pizza){
-        return new Pizza() {
-            @Override
-            public int getPriceOfPizza() {
-                return pizza.getPriceOfPizza() + 150;
-            }
-        };
+    static Pizza witVeggies(Pizza pizza) {
+        return () -> pizza.getPriceOfPizza() + 150;
     }
 
     int getPriceOfPizza();

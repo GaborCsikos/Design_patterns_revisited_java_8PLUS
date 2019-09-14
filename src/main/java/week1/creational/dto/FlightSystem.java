@@ -19,11 +19,11 @@ public class FlightSystem {
 
     public void testNPE(String input) {
         String expected = "CAT";
-       if(expected.equals(input)){
-            throw  new NullPointerException("ABC");
+        if (expected.equals(input)) {
+            throw new NullPointerException("ABC");
 
         }
-        throw  new NullPointerException("NPE");
+        throw new NullPointerException("NPE");
         /*if(input.equals(expected)){
             System.out.println("ABC");
         }

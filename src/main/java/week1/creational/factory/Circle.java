@@ -17,7 +17,7 @@ public class Circle implements Shape {
 
     @Override
     public void setValueForTest(int value) {
-        this.value= value;
+        this.value = value;
     }
 
     @Override

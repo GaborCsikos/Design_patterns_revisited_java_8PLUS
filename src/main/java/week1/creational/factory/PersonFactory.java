@@ -19,11 +19,11 @@ public class PersonFactory {
         Supplier<Person> person = map.get(personType);
         if (person != null) {
             Person personToReturn = person.get();
-            switch(personType){
+            switch (personType) {
                 case PERSON_WITH_BACK_ACCOUNT:
                     personToReturn.setAge(18);
                     personToReturn.setLastName("Example");
-                break;
+                    break;
                 case PERSON_WITH_FULL_ADDRESS:
                     personToReturn.setLastName("Test");
                     break;

@@ -1,7 +1,8 @@
 Sunday:
 
 Observer: http://blog.amitinside.com/Observer-Patter-Using-Java-8-Lambda/
-State
+State: https://www.baeldung.com/java-enum-simple-state-machine
+https://www.javacodegeeks.com/2015/09/state-design-pattern.html#state
 Strategy https://www.codingame.com/playgrounds/6521/strategy-design-pattern-java-8
 Template: https://refactoring.guru/design-patterns/template-method
 Visitor

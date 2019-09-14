@@ -1,7 +1,5 @@
 package week2.structural.adapter;
 
-import org.apache.commons.lang3.StringUtils;
-
 public class PersonAdapterMappingFromNewToLegacy extends LegacySystem {
 
     private NewPersonService newPersonService;

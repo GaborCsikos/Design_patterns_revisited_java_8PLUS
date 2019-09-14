@@ -25,4 +25,4 @@ Composite https://www.geeksforgeeks.org/composite-design-pattern/
 Decorator https://www.voxxed.com/2016/01/decorator-design-pattern-using-lambdas/
 Facade https://www.javacodegeeks.com/2015/09/facade-design-pattern.html
 Flyweight https://refactoring.guru/design-patterns/flyweight
-Proxy(https://dzone.com/articles/design-patterns-proxy)
+Proxy https://www.javacodegeeks.com/2015/09/proxy-design-pattern.html

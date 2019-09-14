@@ -14,4 +14,16 @@ public class DecoratorTest {
         int price = PizzaDecorator.getPrice(new BasicPizza(), Pizza::withExtraCheese, Pizza::withPepperoni);
         assertEquals(1500, price);
     }
+
+    @Test
+    public void testDecoratorSimple() {
+
+        //Add cheese
+        Pizza pizzaWithCheese = () ->  new BasicPizza().getPriceOfPizza() + 200;
+
+        //Add pepperoni
+        Pizza pizzaWithCheeseAndPepperoni = () -> pizzaWithCheese.getPriceOfPizza() + 300;
+
+        assertEquals(1500, pizzaWithCheeseAndPepperoni.getPriceOfPizza());
+    }
 }

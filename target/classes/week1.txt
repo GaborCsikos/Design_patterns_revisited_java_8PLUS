@@ -12,4 +12,4 @@ DTO : https://softwareengineering.stackexchange.com/questions/171457/what-is-the
 prototype OK
 
 https://refactoring.guru/
-
+https://stackoverflow.com/questions/1673841/examples-of-gof-design-patterns-in-javas-core-libraries
