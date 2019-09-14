@@ -5,7 +5,7 @@ State: https://www.baeldung.com/java-enum-simple-state-machine
 https://www.javacodegeeks.com/2015/09/state-design-pattern.html#state
 Strategy https://www.codingame.com/playgrounds/6521/strategy-design-pattern-java-8
 Template: https://refactoring.guru/design-patterns/template-method
-Visitor
+Visitor : https://www.javacodegeeks.com/2015/09/visitor-design-pattern.html
 DAO: https://stackoverflow.com/questions/8550124/what-is-the-difference-between-dao-and-repository-patterns
 MVC: https://www.geeksforgeeks.org/mvc-design-pattern/
 
