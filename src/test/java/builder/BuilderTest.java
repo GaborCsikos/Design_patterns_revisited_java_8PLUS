@@ -1,10 +1,7 @@
 package builder;
 
 import org.junit.Test;
-import week1.creational.builder.GenericBuilder;
-import week1.creational.builder.Person;
-import week1.creational.builder.PersonBuilder;
-import week1.creational.builder.PersonWithLombok;
+import week1.creational.builder.*;
 
 import static org.junit.Assert.assertEquals;
 
@@ -12,7 +9,7 @@ public class BuilderTest {
 
     @Test
     public void testGenericBuilder() {
-        Person person = GenericBuilder.of(Person::new)
+        Person person = GenericBuilderForMutableObjects.of(Person::new)
                 .with(Person::setFirstName, "Gabor")
                 .with(Person::setLastName, "Csikos")
                 .with(Person::setAge, 31).build();
@@ -41,5 +38,13 @@ public class BuilderTest {
         assertEquals("Gabor", person.getFirstName());
         assertEquals("Csikos", person.getLastName());
         assertEquals(31, person.getAge());
+    }
+
+    @Test
+    public void builderGeneric() {
+        AnyObject anyObject = GenericBuilder.of(AnyObject::new)
+                .with($ -> $.setName("Aizhan Csikos"))
+                .build();
+        assertEquals("Aizhan Csikos", anyObject.getName());
     }
 }

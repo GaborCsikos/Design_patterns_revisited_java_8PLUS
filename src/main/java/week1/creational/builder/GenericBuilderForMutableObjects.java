@@ -2,24 +2,26 @@ package week1.creational.builder;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.BiConsumer;
 import java.util.function.Consumer;
 import java.util.function.Supplier;
 
-public class GenericBuilder<T> {
+public class GenericBuilderForMutableObjects<T> {
 
     private final Supplier<T> instantiator;
 
     private List<Consumer<T>> instanceModifiers = new ArrayList<>();
 
-    public GenericBuilder(Supplier<T> instantiator) {
+    public GenericBuilderForMutableObjects(Supplier<T> instantiator) {
         this.instantiator = instantiator;
     }
 
-    public static <T> GenericBuilder<T> of(Supplier<T> instantiator) {
-        return new GenericBuilder<T>(instantiator);
+    public static <T> GenericBuilderForMutableObjects<T> of(Supplier<T> instantiator) {
+        return new GenericBuilderForMutableObjects<T>(instantiator);
     }
 
-    public GenericBuilder<T> with(Consumer<T> c) {
+    public <U> GenericBuilderForMutableObjects<T> with(BiConsumer<T, U> consumer, U value) {
+        Consumer<T> c = instance -> consumer.accept(instance, value);
         instanceModifiers.add(c);
         return this;
     }
