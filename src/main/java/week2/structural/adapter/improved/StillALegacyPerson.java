@@ -1,11 +1,11 @@
-package week2.structural.adapter;
+package week2.structural.adapter.improved;
 
-public class LegacyPerson {
+public class StillALegacyPerson {
 
     private String firstName;
     private String lastName;
 
-    public LegacyPerson(String firstName, String lastName) {
+    public StillALegacyPerson(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
     }
